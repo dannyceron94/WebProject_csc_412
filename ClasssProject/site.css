@@ -1,0 +1,161 @@
+root { 
+    display: block;
+}
+html
+{
+    background-color: red;
+}
+body{
+    background-color: gray;
+}
+.centered{
+   text-align: center;
+}
+.sansSerif{
+    font-family: sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    .leNav 
+    {
+        list-style-type: none;
+        margi: 0;
+        padding: 0;
+        overflow: hidden;
+        background: pink;
+    }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #CC0CF2;
+}
+.background{
+    background-color: red;
+/*    background:  url("images/spce.jpg");*/
+/*background-repeat: no-repeat;*/
+/*    background-position: center top;*/
+    width: 100%;
+    
+    margin: auto;
+    //height: 1000px;
+
+}
+.background-main{
+    background-color: gray;
+    
+    margin: auto;
+}
+.whitetxt{
+    color:white; 
+}
+.blackText{color:black}
+
+.centerTxt{
+    text-align: center;
+}
+.bg-1 { 
+      background-color: green; /* Green */
+      color: #ffffff;
+  }
+.bg-2 { 
+      background-color: red; /* Green */
+      color: #ffffff;
+  }
+.bg-3 { 
+      background-color: whitesmoke; /* Green */
+      color: #ffffff;
+  }
+  .bg-4{
+      background-color: gray;
+  }
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.transbox {
+  //margin: .1px;
+  //background-color: #ffffff;
+  //border: .1px solid black;
+ opacity: .5;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+.shadow-lg{
+    background-color: #ffffff; 
+    border: .2px solid black;
+    opacity:.7
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+.title {
+  color: black;
+  font-size: 18px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 9px;
+}
+
+/*iframe*/
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.containerW{
+    background-color: whitesmoke;
+    max-width: 150px;
+    height: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows:
+    
+}
+
+.degrees{
+    display: grid;
+    grid-temp-colums:auto auto;
+    justify-content: center;
+    margin-left: 2rem; 
+}

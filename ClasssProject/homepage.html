@@ -1,0 +1,179 @@
+<!Doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--css link-->
+      <link rel ="stylesheet" type = "text/css" href="site.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!--Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <style>
+          /*make the image fully responsive*/
+          .carousel-inner img{
+              width: 100%;
+              height: 40%; 
+          }
+      </style>
+
+  </head>
+  <body>
+<div class="background-main">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="homepage.html">&int; focus</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="focus_page.html">Focus link</a>
+      </li>
+<!--      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://online-learning.harvard.edu/">Harvard</a>
+          <a class="dropdown-item" href="https://online.stanford.edu/courses">Standford</a>
+          <a class="dropdown-item" href="https://ocw.mit.edu/index.htm#">MIT</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <a class="navbar-brand" href="homepage.html">&int; focus</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    
+    
+ <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active"><a class="nav-link"  href="homepage.html">Home Page</a></li>
+      <li class="nav-item"><a class="nav-link"  href="focus_page.html"> Focus Page </a></li>
+     
+      
+      dropdown
+      <li class = "nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Study Sources
+          </a>
+          <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://online-learning.harvard.edu/">Harvard</a></li>
+              <li><a class="dropdown-item" href="https://online.stanford.edu/courses">Stanford</a></li>
+              <li><a class="dropdown-item" href="https://ocw.mit.edu/index.htm#">MIT</a></li>              
+          </ul>
+      </li>
+      
+    </ul>
+
+  </div>
+</nav>-->
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">      
+<!--        Indicators-->
+    <ul class="carousel-indicators">
+         <li data-target="#demo" data-slide-to = "0"></li>
+        <li data-target="#demo" data-slide-to = "1"></li>
+        <li data-target="#demo" data-slide-to = "2"></li>
+        <li data-target="#demo" data-slide-to ="3"><li>
+    </ul> 
+<!--        The slideshow-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/pretty.JPG" alt="one" width="300" height="50">
+            </div>
+            <div class="carousel-item">
+                <img src="images/tahoe.JPG" alt="two" width="300" height="50">
+            </div>
+            <div class="carousel-item">
+                <img src="images/luna.JPG" alt="three" width="300" height="50">
+            </div> 
+            <div class="carousel-item">
+                <img src="images/santacruz.jpg" alt="four" width="300" height="50">
+            </div> 
+        </div>
+    </div><!--end of carru-->
+
+    <div class ="container-fluid bg-1">
+        <div class="row centerTxt">
+            <div class="col">
+                <h3 class="margine">Welcome to best Focus site</h3>
+                <p>This website is designed to provide humans a focus interface, and some really good sources for your studies</p>
+                <a href="focus_page.html" class ="btn btn-default btn btn-lg">
+                    <span class="glyphicon glyphicon-eye-open"></span> Focus
+                </a>
+            </div><!--end of col-->
+        </div><!--end of row-->  
+    </div><!--End of 1st container-->
+    
+        <div class ="container-fluid">
+        <div class="row bg-2">
+            <!--<div class="shadow-sm p-4 mb-4 bg-2">-->
+                <div class="col-sm centerTxt">
+                    <h3 class="margine">║▌║▌║ 𝕼𝖚𝖔𝖙𝖊𝖘 ║▌║▌║</h3>
+                    <p>
+                        "I find that the harder I work, the more luck I seem to have." -- Thomas Jefferson
+                    </p>
+                    <p>
+                        "Try not to become a man of success. Rather become a man of value." -- Albert Einstein
+                    </p>
+                    <p>
+                        "When something is important enough, you do it even if the odds are not in your favor." --Elon Musk
+                    </p>
+                </div><!--end of col-->
+            <!--</div>end of shadow-->
+        </div><!--end of row-->  
+        <div class="row bg-2">
+            <div class="col">
+            <div class="shadow-none bg-light rounded ">
+                <!--possible col-md-offset-2-->
+                <div class="col-sm blackText"style="background-color:white;">
+                    <h3 class="blackText centerTxt">🆂🆃🅰🆈 🅼🅾🆃🅸🆅🅰🆃🅴🅳</h3>
+                    <div class="iframe-container">
+                    <iframe width="1200" height="400" src="https://www.youtube.com/embed/WeA7edXsU40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div><!--end of col-->
+            </div>
+        </div>
+    </div><!--End of 2nd container-->
+    <div class="container-fluid bg-light">
+        <div class="row centerTxt">
+            <div class="col">
+                <p>&int; focus© 2018</p>
+                 <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+ </div> <!--end-of-background-->
+ 
+      
+</body>
+</html>
+
+
+

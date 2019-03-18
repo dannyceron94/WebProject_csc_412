@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!--<title>TODO supply a title</title>-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--      links-->
+      <link rel ="stylesheet" type = "text/css" href="site.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!--Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--javascript stuff-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script type="text/javascript" src='myJavascript.js'></script>
+ 
+       <style>
+           body,html{
+               height: 100%;
+           }
+.bbg  {
+  background-image: url("images/paris_rain"); 
+  //background-size: 100% 100%;
+  
+  //height: 100%;
+  //background-repeat: no-repeat;
+  background-size: cover;
+  //background-position: center;
+  /*background-color: #cccccc;*/
+}
+
+
+
+h1,h2,h3 {
+  color: brown;
+}
+
+
+
+      </style>
+    </head>
+   
+    <body>
+        <!--<div class="background">-->
+        <div class="bbg">
+            
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="homepage.html">&int; focus</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="focus_page.html">Focus link</a>
+      </li>
+<!--      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://online-learning.harvard.edu/">Harvard</a>
+          <a class="dropdown-item" href="https://online.stanford.edu/courses">Standford</a>
+          <a class="dropdown-item" href="https://ocw.mit.edu/index.htm#">MIT</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+            
+            
+            <div class="container-fluid">   
+                <div class="row">
+                   
+                    <div class="col-sm-2 ">
+                        <div class="transbox">
+                            <div class="shadow-lg p-1 mb-5 rounded">  
+                                <div>Time:<p id = "time">stopped working</p></div>
+                                <div>Date:<p id = "date">:C</p></div>
+                            </div>
+                        </div>
+                    
+                     </div>
+                    <div class="col-sm-8 "> 
+                        
+<audio controls autoplay loop>
+  <source src="sounds/raining02">
+
+</audio>
+                            <!--<source src="sounds/raining.wav">-->
+
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="containerW">
+                            city:<h2 id="city">SF</h2>
+                            <div class="degrees">
+                                temp:<h1 id="temp">60 <span>&#176;</span></h1>
+                                
+                               </div>
+                            weather:<h3 id="climate">Cloudy</h3>
+                        </div>
+<!--                         <h1><time>00:00:00</time></h1>
+                        <button id="start">start</button>
+                        <button id="stop">stop</button>
+                        <button id="clear">clear</button>-->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        
+                        <!--<div class="shadow p-3 mb-5 bg-4 rounded">-->                            
+                    <iframe src="http://csc412sfsu.com/~dcerongarcia/todolist.html" width="300" height="400"></iframe>
+                        <!--</div>-->
+                      
+                    </div><!--end of 1st col-->
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-3">                   
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="280" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div><!--end of 1st row-->
+            </div><!--end of 1st container-fluid -->
+        <!--</div>-->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Generic page for csc412
+        </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+        <link rel ="stylesheet" type = "text/css" href="site.css">
+        
+        <script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+        
+    </head>
+<body>
+       <div class ="background">
+    <div id="flip">Click to slide the panel down or up</div>
+<!--    <div id="panel">Hello world!</div>-->
+<figure id="panel" >
+    <img src="images/pretty.JPG" width="700" height="350">
+      <figcaption>Lake Tahoe summer of 2018</figcaption>
+</figure>    
+
+    <script>
+        function myFunction() {
+            if(document.getElementById("btc").style.backgound="#333")
+                {
+                    document.getElementById("btc").style.background="blue";
+                }else{
+                    document.getElementById("btc").style.color = "#333";
+                 
+                }
+        }
+    </script>
+    
+<!--    <a id ="show-more">change color</a>-->
+        <ul id ="btc" class = "nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="current.html">Current</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="newEmptyPHP.php">Submit</a></li>
+            <li><a href="homepage.html">bootstrap stuff</a></li>
+        </ul> 
+
+
+       
+        
+            <div class ="whitetxt">
+                <div class="centerTxt">
+                    <button type="button" onclick="javascript:myFunction()">Click me to change color.</button>
+
+                    <h1>Hello world!</h1>
+                    <p>
+                        Current SFSU student. this is a practice site for csc412
+                    </p>
+                    <p>
+                        This is the page of dcerongarcia. well i gotta say, I love vim
+                    </p>
+                </div>
+            </div>
+    </div>
+<!--    <script src="myJavascript.js"></script>-->
+</body>
+</html>
